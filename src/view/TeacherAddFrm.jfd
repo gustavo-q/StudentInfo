@@ -1,0 +1,72 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.4" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:91:p, par t {comp textField2:::p:124:p, seq t {par t {seq {comp label5:::p:65:p, space :p:65:p}, seq l {comp label1:::p:100:p, space :::p}}, comp textField1:::p:124:p}, seq t {comp label4:::p::p, space :p:45:p, par l {seq {comp radioButton1:::p::p, space s:::p, comp radioButton2:::p::p}, comp textField3:::p:124:p}}}}, seq l {par t {seq l {space :p:115:p, comp button1:::p::p}, seq {space :::p, par t {comp label3::t:p:100:p, comp label2::t:p:100:p}}}, space :p:62:p, comp button2:::p::p}}, space ::100:x}}"
+			"$verticalGroup": "par l {seq l {space :p:40:p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space :p:27:p, par b {comp textField2::b:p::p, comp label2::b:p::p}, space :p:28:p, par b {comp textField3::b:p::p, comp label3::b:p::p}, space :p:36:p, par b {comp radioButton1::b:p::p, comp radioButton2::b:p::p, comp label4::b:p::p}, space :p:36:p, comp label5:::p::p, space :::p, par b {comp button1::b:p::p, comp button2::b:p::p}, space ::30:x}}"
+		} ) {
+			name: "this"
+			"visible": true
+			"preferredSize": new java.awt.Dimension( 445, 340 )
+			"closable": true
+			"maximizable": true
+			"resizable": true
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "老师名称："
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "登录密码:"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "教师职称："
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField3"
+				"preferredSize": new java.awt.Dimension( 65, 25 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "教师性别："
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/性别.png" )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "男"
+				"selected": true
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "女"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "添加"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/添加.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "重置"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/重置.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 445, 340 )
+		} )
+	}
+}

@@ -1,0 +1,70 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.4" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JInternalFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:75:p, comp label4:::p:94:p, space :p:63:p, comp button2:::p::p, space :0:17:x}, seq l {par t {seq t {space :p:75:p, comp label3:::p:94:p}, par t {seq l {space :p:93:p, comp button1:::p::p}, seq {space :p:75:p, par t {comp label2::t:p:94:p, comp label1:::p:94:p}}}}, space ::31:x, par l:::p {par l {par l:t::p {comp comboBox1::t::125:x, comp textField1::t::125:x}, comp passwordField1:::p:125:p}, seq l {comp radioButton1:::p::p, space :::x, comp radioButton2:::p::p, space :p:28:p}}}}, space :p:115:p}}"
+			"$verticalGroup": "par l {seq l {space :p:33:p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space :p:30:p, par b {comp comboBox1::b:p::p, comp label2::b:p::p}, space :p:31:p, par b {comp passwordField1::b:p::p, comp label3::b:p::p}, space :p:25:p, par b {comp radioButton1::b:p::p, comp label4::b:p::p, comp radioButton2::b:p::p}, space :p:40:p, par b {comp button1::b:p::p, comp button2::b:p::p}, space ::33:x}}"
+		} ) {
+			name: "this"
+			"visible": true
+			"title": "添加学生"
+			"closable": true
+			"maximizable": true
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "学生姓名："
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/学生.png" )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "所属班级："
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/班级名称.png" )
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox1"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "登录密码："
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/密 码 .png" )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "学生性别："
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/性别.png" )
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "男"
+				"selected": true
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "女"
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField1"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "确认"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/确认.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "重置"
+				"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/重置.png" )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 40, 15 )
+			"size": new java.awt.Dimension( 440, 330 )
+		} )
+	}
+}

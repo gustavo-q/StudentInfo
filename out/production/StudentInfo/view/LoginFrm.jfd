@@ -1,0 +1,84 @@
+JFDML JFormDesigner: "7.0.0.6.255" Java: "11.0.4" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"title": "登录界面"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "dialogPane"
+				"border": new javax.swing.border.EmptyBorder( 12, 12, 12, 12 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq l {par l {seq l {par l {seq {space :p:94:p, par l {comp label4:::p:111:p, comp label2:::p::p, comp label1:::p::p}}, seq l {space :p:95:p, comp button1:::p::p}}, par l {seq {space :p:26:p, par t {comp textField1:::p:141:p, comp textField2:::p:141:p}}, seq l {space :p:51:p, comp button2:::p:88:p}}}, seq t {space :p:67:p, comp comboBox1:::p::p}}, space ::47:x}, seq l {comp label3:::p:190:p, space :0:229:x}}"
+					"$verticalGroup": "par l {seq l {comp label3:::p::p, space :p:34:p, par b {comp textField1::b:p::p, comp label1::b:p::p}, space :p:25:p, par b {comp textField2::b:p::p, comp label2::b:p::p}, space :p:26:p, par b {comp comboBox1::b:p::p, comp label4::b:p::p}, space ::38:x, par b {comp button1::b:p::p, comp button2::b:p::p}, space :p:24:p}}"
+				} ) {
+					name: "contentPanel"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "用户名："
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/用户.png" )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "密码："
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/密 码 .png" )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "学生信息管理系统"
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/强力.png" )
+						"font": new java.awt.Font( "宋体", 0, 16 )
+						"background": new javax.swing.plaf.ColorUIResource( 238, 238, 238 )
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField2"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "登录"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/登录.png" )
+						addEvent( new FormEvent( "javax.swing.event.AncestorListener", "ancestorAdded", "button1AncestorAdded", true ) )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button2"
+						"text": "重置"
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/重置.png" )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "用户类型："
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+						"icon": new com.jformdesigner.model.SwingIcon( 0, "/images/user-type.png" )
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox1"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "系统管理员"
+							addElement( "系统管理员" )
+							addElement( "教师" )
+							addElement( "学生" )
+						}
+						"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 3, false )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "South"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 0 )
+			"size": new java.awt.Dimension( 445, 335 )
+		} )
+	}
+}

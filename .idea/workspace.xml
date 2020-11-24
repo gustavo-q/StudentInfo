@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99a5e4c7-5467-4552-bd5e-725b9df4766b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\software\aptche\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jQ2KhpMZUfEGwXforpQ8VVXEx8" />
+  <component name="PropertiesComponent">
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.jformdesigner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="b" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaspace\basics\StudentInfo\src\images" />
+      <recent name="E:\javaspace\basics\StudentInfo\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javaspace\basics\StudentInfo\src\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoginFrm">
+    <configuration name="Dbutil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.Dbutil" />
+      <module name="StudentInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditPasswordFrm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.EditPasswordFrm" />
+      <module name="StudentInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginFrm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.LoginFrm" />
+      <module name="StudentInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFrm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.MainFrm" />
+      <module name="StudentInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.a" />
+      <module name="StudentInfo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginFrm" />
+        <item itemvalue="Application.a" />
+        <item itemvalue="Application.EditPasswordFrm" />
+        <item itemvalue="Application.Dbutil" />
+        <item itemvalue="Application.MainFrm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a5e4c7-5467-4552-bd5e-725b9df4766b" name="Default Changelist" comment="" />
+      <created>1603721932778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603721932778</updated>
+      <workItem from="1603721934090" duration="1974000" />
+      <workItem from="1603723920904" duration="143000" />
+      <workItem from="1603724087395" duration="27000" />
+      <workItem from="1603724123863" duration="469000" />
+      <workItem from="1603724604829" duration="161000" />
+      <workItem from="1603724776174" duration="2045000" />
+      <workItem from="1603727089174" duration="536000" />
+      <workItem from="1603758986688" duration="4516000" />
+      <workItem from="1603772359708" duration="13624000" />
+      <workItem from="1603850338900" duration="8414000" />
+      <workItem from="1603878011566" duration="3457000" />
+      <workItem from="1603883749866" duration="3082000" />
+      <workItem from="1603956565762" duration="2160000" />
+      <workItem from="1603958742764" duration="1090000" />
+      <workItem from="1603959848848" duration="4319000" />
+      <workItem from="1603964190304" duration="3479000" />
+      <workItem from="1604492371889" duration="2053000" />
+      <workItem from="1604546386143" duration="2218000" />
+      <workItem from="1604555950038" duration="8765000" />
+      <workItem from="1604738023991" duration="3115000" />
+      <workItem from="1604748164763" duration="7574000" />
+      <workItem from="1604756872908" duration="3446000" />
+      <workItem from="1604762211391" duration="659000" />
+      <workItem from="1604805650574" duration="15750000" />
+      <workItem from="1604914865246" duration="604000" />
+      <workItem from="1605073139025" duration="5201000" />
+      <workItem from="1605092261365" duration="4879000" />
+      <workItem from="1605097668827" duration="2129000" />
+      <workItem from="1605152659948" duration="6813000" />
+      <workItem from="1605163300141" duration="2121000" />
+      <workItem from="1605167650157" duration="7204000" />
+      <workItem from="1605230770352" duration="2399000" />
+      <workItem from="1605333343411" duration="10776000" />
+      <workItem from="1605406775566" duration="3193000" />
+      <workItem from="1605529477915" duration="2091000" />
+      <workItem from="1605607619416" duration="9404000" />
+      <workItem from="1605699216310" duration="5813000" />
+      <workItem from="1605708627110" duration="1832000" />
+      <workItem from="1605712628244" duration="663000" />
+      <workItem from="1605783765071" duration="599000" />
+      <workItem from="1605865776233" duration="4124000" />
+      <workItem from="1605880588268" duration="2899000" />
+      <workItem from="1605921557613" duration="2440000" />
+      <workItem from="1605931720428" duration="8976000" />
+      <workItem from="1606036839495" duration="600000" />
+      <workItem from="1606221533822" duration="524000" />
+      <workItem from="1606222077371" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StudentInfo$Main.ic" NAME="Main Coverage Results" MODIFIED="1603787258294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>view.*</FILTER>
+    </SUITE>
+  </component>
+</project>
